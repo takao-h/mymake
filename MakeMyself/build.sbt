@@ -8,5 +8,6 @@ scalaVersion := "2.11.7"
 libraryDependencies ++= Seq(
   javaJdbc,
   cache,
-  javaWs
+  javaWs,
+  "com.google.cloud" % "google-cloud-vision" % "1.12.0"
 )
